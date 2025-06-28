@@ -103,7 +103,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "forest": "2025-06-28 01:26:56 +0000"
+      "forest": "2025-06-28 01:26:56 +0000",
+      "beaches": "2025-06-28 07:42:17 +0000",
+      "river": "2025-06-28 07:42:45 +0000"
     },
     "done": false
   }

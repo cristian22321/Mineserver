@@ -1,90 +1,299 @@
-[01:37:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:37:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:37:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[01:37:18] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[01:37:18] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1027-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[01:37:18] [main/INFO] [FML]: Searching /workspaces/Mineserver/servidor_minecraft/./mods for mods
-[01:37:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:37:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:37:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:37:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:37:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:37:19] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[01:37:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:37:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:37:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:37:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:37:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[01:37:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[01:37:22] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[01:37:22] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[01:37:22] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[01:37:22] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[01:37:23] [Server thread/INFO] [FML]: Searching /workspaces/Mineserver/servidor_minecraft/./mods for mods
-[01:37:23] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
-[01:37:23] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[01:37:23] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[01:37:23] [Server thread/WARN] [FML]: Missing English translation for geckolib3: assets/geckolib3/lang/en_us.lang
-[01:37:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at CLIENT
-[01:37:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at SERVER
-[01:37:24] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[01:37:24] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[01:37:24] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[01:37:24] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[01:37:24] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[01:37:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[01:37:24] [Server thread/INFO] [FML]: Applying holder lookups
-[01:37:24] [Server thread/INFO] [FML]: Holder lookups applied
-[01:37:24] [Server thread/INFO] [FML]: Applying holder lookups
-[01:37:24] [Server thread/INFO] [FML]: Holder lookups applied
-[01:37:24] [Server thread/INFO] [FML]: Applying holder lookups
-[01:37:24] [Server thread/INFO] [FML]: Holder lookups applied
-[01:37:24] [Server thread/INFO] [FML]: Applying holder lookups
-[01:37:24] [Server thread/INFO] [FML]: Holder lookups applied
-[01:37:24] [Server thread/INFO] [FML]: Injecting itemstacks
-[01:37:24] [Server thread/INFO] [FML]: Itemstack injection complete
-[01:37:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[01:37:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[01:37:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[01:37:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[01:37:24] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[01:37:24] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:37:24] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[01:37:24] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:37:24] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:37:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[01:37:25] [Server thread/INFO] [FML]: Applying holder lookups
-[01:37:25] [Server thread/INFO] [FML]: Holder lookups applied
-[01:37:25] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.trolmastercard.sexmod.em from class com.trolmastercard.sexmod.ei
-[01:37:25] [Server thread/INFO] [FML]: Injecting itemstacks
-[01:37:25] [Server thread/INFO] [FML]: Itemstack injection complete
-[01:37:25] [Server thread/INFO] [sexmod]: loading up custom models...
-[01:37:25] [Server thread/INFO] [sexmod]: found 0 custom model(s)
-[01:37:25] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[01:37:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[01:37:25] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[01:37:25] [Server thread/INFO] [FML]: Applying holder lookups
-[01:37:25] [Server thread/INFO] [FML]: Holder lookups applied
-[01:37:25] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5208769b)
-[01:37:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[01:37:26] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5208769b)
-[01:37:26] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5208769b)
-[01:37:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[01:37:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 69%
-[01:37:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.997s)! For help, type "help" or "?"
-[01:37:27] [Server thread/INFO] [FML]: Unloading dimension -1
-[01:37:27] [Server thread/INFO] [FML]: Unloading dimension 1
-[01:38:07] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[01:38:07] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.1.0,geckolib3@3.0.30,mcp@9.42
-[01:38:09] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[01:38:09] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: polentacontuco[/127.183.230.69:42047] logged in with entity id 149 at (-267.3708598774724, 66.0, 64.43720416910107)
-[01:38:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: polentacontuco joined the game
-[01:40:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: polentacontuco fell out of the world
-[01:40:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed polentacontuco]
-[01:43:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[01:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[01:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[01:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[01:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[01:43:42] [Server thread/INFO] [FML]: Unloading dimension 0
-[01:43:42] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[07:30:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[07:30:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[07:30:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[07:30:26] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[07:30:26] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1027-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[07:30:26] [main/INFO] [FML]: Searching /workspaces/Mineserver/servidor_minecraft/./mods for mods
+[07:30:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:30:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:30:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:30:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:30:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:30:28] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[07:30:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:30:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:30:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:30:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:30:28] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[07:30:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[07:30:31] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[07:30:31] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[07:30:31] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[07:30:31] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[07:30:31] [Server thread/INFO] [FML]: Searching /workspaces/Mineserver/servidor_minecraft/./mods for mods
+[07:30:32] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
+[07:30:32] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[07:30:32] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[07:30:32] [Server thread/WARN] [FML]: Missing English translation for geckolib3: assets/geckolib3/lang/en_us.lang
+[07:30:32] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at CLIENT
+[07:30:32] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at SERVER
+[07:30:32] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[07:30:32] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[07:30:32] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[07:30:32] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[07:30:32] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[07:30:32] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[07:30:33] [Server thread/INFO] [FML]: Applying holder lookups
+[07:30:33] [Server thread/INFO] [FML]: Holder lookups applied
+[07:30:33] [Server thread/INFO] [FML]: Applying holder lookups
+[07:30:33] [Server thread/INFO] [FML]: Holder lookups applied
+[07:30:33] [Server thread/INFO] [FML]: Applying holder lookups
+[07:30:33] [Server thread/INFO] [FML]: Holder lookups applied
+[07:30:33] [Server thread/INFO] [FML]: Applying holder lookups
+[07:30:33] [Server thread/INFO] [FML]: Holder lookups applied
+[07:30:33] [Server thread/INFO] [FML]: Injecting itemstacks
+[07:30:33] [Server thread/INFO] [FML]: Itemstack injection complete
+[07:30:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[07:30:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[07:30:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[07:30:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[07:30:33] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[07:30:33] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:30:33] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[07:30:33] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:30:33] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:30:33] [Server thread/INFO] [FML]: Applying holder lookups
+[07:30:33] [Server thread/INFO] [FML]: Holder lookups applied
+[07:30:33] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.trolmastercard.sexmod.em from class com.trolmastercard.sexmod.ei
+[07:30:33] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[07:30:33] [Server thread/INFO] [FML]: Injecting itemstacks
+[07:30:33] [Server thread/INFO] [FML]: Itemstack injection complete
+[07:30:33] [Server thread/INFO] [sexmod]: loading up custom models...
+[07:30:33] [Server thread/INFO] [sexmod]: found 0 custom model(s)
+[07:30:33] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[07:30:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[07:30:34] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[07:30:34] [Server thread/INFO] [FML]: Applying holder lookups
+[07:30:34] [Server thread/INFO] [FML]: Holder lookups applied
+[07:30:34] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@499d24e8)
+[07:30:34] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[07:30:34] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@499d24e8)
+[07:30:34] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@499d24e8)
+[07:30:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[07:30:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%
+[07:30:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.030s)! For help, type "help" or "?"
+[07:30:36] [Server thread/INFO] [FML]: Unloading dimension -1
+[07:30:36] [Server thread/INFO] [FML]: Unloading dimension 1
+[07:33:02] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
+[07:33:02] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.1.0,geckolib3@3.0.30,mcp@9.42
+[07:33:03] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[07:33:03] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: polentacontuco[/127.183.230.69:33455] logged in with entity id 176 at (-256.57887104452726, 67.0, 62.86693166342174)
+[07:33:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: polentacontuco joined the game
+[07:39:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: polentacontuco fell out of the world
+[07:39:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed polentacontuco]
+[07:39:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Set own game mode to Spectator Mode]
+[07:39:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: polentacontuco fell out of the world
+[07:39:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed polentacontuco]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: polentacontuco fell out of the world
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed polentacontuco]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed item.item.bed.red]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Luna]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed item.item.monsterPlacer]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed item.item.monsterPlacer]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bia]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Slime girl]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bia]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Slime girl]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bia]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bia]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Enderman]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Enderman]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed item.item.bone]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed item.item.arrow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Wolf]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Wolf]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Wolf]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Wolf]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Spider]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed item.item.bone]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Enderman]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Witch]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Enderman]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Skeleton]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed item.tile.doublePlant.rose]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Zombie]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Creeper]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Bat]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Squid]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Killed Cow]
+[07:40:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [polentacontuco: Set own game mode to Creative Mode]
